@@ -14,7 +14,7 @@ First, create a new Drupal project using Composer:
 ```sh
 composer create-project drupal/recommended-project my_site_name
 cd my_site_name
-
+```
 
 ## Step 2: Install Required Modules
 
@@ -33,7 +33,7 @@ composer require -W drupal/svg_formatter:^1.0
 composer require -W drupal/openapi:^2.0
 composer require -W drupal/openapi_ui:^1.0
 composer require -W drupal/swagger_ui:^1.0
-
+```
 
 ## Step 3: Enable Installed Modules
 
@@ -52,13 +52,13 @@ drush en svg_formatter -y
 drush en openapi -y
 drush en openapi_ui -y
 drush en swagger_ui -y
-
+```
 
 ## Step 4: Rebuild Cache
 
 ```sh
 drush cr
-
+```
 
 ## Uninstalling Modules
 
